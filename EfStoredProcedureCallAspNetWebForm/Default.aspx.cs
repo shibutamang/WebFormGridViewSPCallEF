@@ -13,5 +13,15 @@ namespace EfStoredProcedureCallAspNetWebForm
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void UpdateData(object sender, DetailsViewInsertedEventArgs e)
+        {
+            GridView1.DataBind();
+        }
     }
 }
